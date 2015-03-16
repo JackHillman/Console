@@ -50,7 +50,7 @@ $(document).ready(function() {
 	function commands(currentCommand) {
 		switch (currentCommand) {
 // CLS
-			case "cls":
+			case "clear":
 				$('.onScreen').empty();
 				break;
 // HELP
@@ -63,7 +63,7 @@ $(document).ready(function() {
 						console.log(allDir);
 						break;
 	// HELP CLS
-					case "cls":
+					case "clear":
 						insert("Clears all of the current information on the screen. Any current variables or information is saved.");
 						break;
 	// HELP HELP
@@ -131,7 +131,7 @@ $(document).ready(function() {
 	}
 
 	commandList = {
-		"cls": "Clears the screen", 
+		"clear": "Clears the screen", 
 		"echo (text)": "Prints text to the screen",
 		"cd (dir)": "Change current directory", 
 		"help": "Shows help menu",
