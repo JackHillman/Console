@@ -1,0 +1,48 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+
+html {
+	background-color: #111;
+	color: #0F0;
+}
+body {
+	width: 960px;
+	min-width: 960px;
+	margin: 20px auto;
+	height: 100%;
+}
+p {
+	font-family: 'Inconsolata';
+	font-size: 12pt;
+}
+input {
+	background-color: #111;
+	border: none;
+	outline: none;
+	color: #0F0;
+	font-family: 'Inconsolata';
+	font-size: 12pt;
+	width: 100%;
+}
+.logo {
+	height: 50px;
+	width: 100px;
+	background: url(../images/JH_White.svg);
+	opacity: 0.2;
+	position: absolute;
+	background-repeat: no-repeat;
+	background-size: contain; 
+	bottom: 10px;
+	right: 0;
+}
+.logo:hover {
+	opacity: 1;
+}
+p a {
+	color: #00FF00;
+	text-decoration: none;
+}
